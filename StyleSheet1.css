@@ -1,0 +1,53 @@
+﻿body {
+    background-image:url('Resimler/arka.jpg');
+    background-repeat:no-repeat;
+ 
+  background-size:100% 110%;
+    
+   
+}
+.anadiv{
+    margin:auto;
+    /*background-color:yellow;*/
+    width: 947px;
+    height: 254px;
+}
+#anaTablo {
+   
+    height:600px;
+    width:1000px;
+    
+}
+#cph_Icerik {
+    height:600px;
+    width:1000px;
+}
+.yavru {
+    padding:10px 10px 10px 10px;
+    width:761px;
+    margin:auto;
+    height: 102px;
+    /*display:none; */
+    
+}
+.anadiv:hover {
+cursor:pointer;
+background-color:rgba(175, 246, 244, 0.71);
+
+}
+
+.anapencere {
+    margin:auto;
+    /*background-color:yellow;*/
+    width: 937px;
+    height: 575px;
+}
+
+yavru:visited {
+    display:inline;
+    padding:10px 10px 10px 10px;
+    width:761px;
+    margin:auto;
+    height: 102px;
+}
+

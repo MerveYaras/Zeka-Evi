@@ -1,0 +1,91 @@
+C:\Documents and Settings\user\Belgelerim\Visual Studio 2008\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Documents and Settings\user\Belgelerim\Visual Studio 2008\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Documents and Settings\user\Belgelerim\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\Belgelerim\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Documents and Settings\user\Belgelerim\Visual Studio 2008\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ILERI\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ILERI\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ILERI\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ILERI\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ILERI\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ILERI\Desktop\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\ILERI\Desktop\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ILERI\Desktop\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\ILERI\Desktop\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ILERI\Desktop\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+F:\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\bin\WebApplication1.dll
+F:\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+F:\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+F:\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+F:\3. Sınıf\2.Dönem\Web\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.dll
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Merve\Desktop\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\MySql.Data.dll
+C:\Users\Merve\Desktop\merve i\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.dll
+C:\Users\Merve\Desktop\merve i\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Merve\Desktop\merve i\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\merve i\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Merve\Desktop\merve i\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\WebApplication1.pdb
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\Interop.WMICNTLLib.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\Interop.WMPRichPreviewLauncher.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\bin\Interop.WMSCLIENTNETMGRLib.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\Interop.WMICNTLLib.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\Interop.WMPRichPreviewLauncher.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\Interop.WMSCLIENTNETMGRLib.dll
+D:\Merveİleri\Dersler\3. Sınıf\2.Dönem\Web\ödev\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+C:\Users\skz\Desktop\ödev\WebApplication1\bin\WebApplication1.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\bin\WebApplication1.pdb
+C:\Users\skz\Desktop\ödev\WebApplication1\bin\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\bin\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\bin\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\skz\Desktop\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\bin\WebApplication1.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\bin\WebApplication1.pdb
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\bin\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\bin\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\bin\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\skz\Desktop\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\bin\WebApplication1.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\bin\WebApplication1.pdb
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMICNTLLib.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMPRichPreviewLauncher.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMSCLIENTNETMGRLib.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\skz\Desktop\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\bin\WebApplication1.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\bin\WebApplication1.pdb
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMICNTLLib.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMPRichPreviewLauncher.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\bin\Interop.WMSCLIENTNETMGRLib.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMICNTLLib.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMPRichPreviewLauncher.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\Interop.WMSCLIENTNETMGRLib.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.csproj.ResolveComReference.cache
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Merve\Ders\4.Sınıf\Bitirme\ödev\WebApplication1\obj\Debug\WebApplication1.pdb

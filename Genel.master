@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Genel.master.cs" Inherits="WebApplication1.Genel" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Merve İLERİ</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="genel.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <script src="jquery-1.9.1.js"></script>
+    <script src="JavaScript1.js"></script>
+
+
+
+    <style type="text/css">
+        #yav4 {
+            height: 279px;
+            width: 948px;
+        }
+    </style>
+
+</head>
+<%--<iframe src="ses.aspx" style="height: 5px; width: 9px"></iframe>--%>
+
+<body>
+
+     
+                 
+      
+    <form id="form1" runat="server">
+        <%--Bölüm--%>
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <asp:Label ID="Label1" runat="server" Text="  "></asp:Label>
+
+        <div class="anapencere" id="anaTablo">
+
+            <asp:ContentPlaceHolder
+                ID="cph_Icerik" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+     
+     
+</body>
+</html>

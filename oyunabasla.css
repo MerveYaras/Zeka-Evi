@@ -1,0 +1,29 @@
+﻿*{margin:0px;padding:0px;}  /* en basitinden css 'imizi sıfırlıyoruz. */
+#featured-slider
+{width:900px;
+height:570px;
+overflow:hidden;position:relative;
+    top: 0px;
+    left: 29px;
+    float:left;
+}   /* Bütün sayfaların gözükmemesi için overflow:hidden; kullandık. */#slider{width:5000px;height:200px;position:absolute;top:0px;left:0px;}   /* #slider elementinde bütün sayfalarımızı/slaytlarımız bulunduğu için genişliğini 2500px belirledik ve kaydırma işlemini bu element ile yaptığımız için position:absolute; tanımladık. */
+
+#slider div
+{ 
+width:900px;height:570px;
+float:left;position:relative;
+} /* #slider 'ı her seferinde sola kaydırdığımız için içindeki divlerin yanyana gözükmesi gerek. Bu yüzden float:left; tanımladık */
+
+
+#sayfalama
+{position:absolute;
+ left:320px;
+ bottom:-73px;
+ width: 147px;
+ height: 98px;
+}
+.kilit:hover
+{   background-color:white;
+    box-shadow: 5px 5px 5px 5px #0099FF;}
+
+

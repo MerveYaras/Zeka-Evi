@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D17B722-749F-4911-A91D-BEE7B98CA80F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Data.Entity.Build.Tasks" />
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\MySQL\MySQL Installer\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationClientsideProviders" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="alkis.mp3" />
+    <Content Include="App_Data\Database1.sdf" />
+    <Content Include="bas.swf" />
+    <Content Include="baslangic.aspx" />
+    <Content Include="baslangic.css" />
+    <Content Include="baslangic.js" />
+    <Content Include="digersayfalar.css" />
+    <Content Include="digersayfalar2.css" />
+    <Content Include="frontal1.aspx" />
+    <Content Include="frontal2.aspx" />
+    <Content Include="frontal3.aspx" />
+    <Content Include="hakkinda.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="JavaScript1.js" />
+    <Content Include="JavaScript2.js" />
+    <Content Include="jquery-1.11.0.min.js" />
+    <Content Include="jquery-1.9.1.js" />
+    <Content Include="Kartlar\1.jpg" />
+    <Content Include="Kartlar\10.jpg" />
+    <Content Include="Kartlar\11.jpg" />
+    <Content Include="Kartlar\12.jpg" />
+    <Content Include="Kartlar\13.jpg" />
+    <Content Include="Kartlar\14.jpg" />
+    <Content Include="Kartlar\15.jpg" />
+    <Content Include="Kartlar\16.jpg" />
+    <Content Include="Kartlar\17.jpg" />
+    <Content Include="Kartlar\18.jpg" />
+    <Content Include="Kartlar\19.jpg" />
+    <Content Include="Kartlar\2.jpg" />
+    <Content Include="Kartlar\20.jpg" />
+    <Content Include="Kartlar\21.jpg" />
+    <Content Include="Kartlar\22.jpg" />
+    <Content Include="Kartlar\23.jpg" />
+    <Content Include="Kartlar\24.jpg" />
+    <Content Include="Kartlar\25.jpg" />
+    <Content Include="Kartlar\26.jpg" />
+    <Content Include="Kartlar\27.jpg" />
+    <Content Include="Kartlar\28.jpg" />
+    <Content Include="Kartlar\29.jpg" />
+    <Content Include="Kartlar\3.jpg" />
+    <Content Include="Kartlar\30.jpg" />
+    <Content Include="Kartlar\31.jpg" />
+    <Content Include="Kartlar\32.jpg" />
+    <Content Include="Kartlar\33.jpg" />
+    <Content Include="Kartlar\34.jpg" />
+    <Content Include="Kartlar\35.jpg" />
+    <Content Include="Kartlar\36.jpg" />
+    <Content Include="Kartlar\37.jpg" />
+    <Content Include="Kartlar\38.jpg" />
+    <Content Include="Kartlar\39.jpg" />
+    <Content Include="Kartlar\4.jpg" />
+    <Content Include="Kartlar\40.jpg" />
+    <Content Include="Kartlar\41.jpg" />
+    <Content Include="Kartlar\42.jpg" />
+    <Content Include="Kartlar\43.jpg" />
+    <Content Include="Kartlar\44.jpg" />
+    <Content Include="Kartlar\45.jpg" />
+    <Content Include="Kartlar\46.jpg" />
+    <Content Include="Kartlar\47.jpg" />
+    <Content Include="Kartlar\48.jpg" />
+    <Content Include="Kartlar\49.jpg" />
+    <Content Include="Kartlar\5.jpg" />
+    <Content Include="Kartlar\50.jpg" />
+    <Content Include="Kartlar\51.jpg" />
+    <Content Include="Kartlar\52.jpg" />
+    <Content Include="Kartlar\53.jpg" />
+    <Content Include="Kartlar\54.jpg" />
+    <Content Include="Kartlar\55.jpg" />
+    <Content Include="Kartlar\56.jpg" />
+    <Content Include="Kartlar\57.jpg" />
+    <Content Include="Kartlar\58.jpg" />
+    <Content Include="Kartlar\59.jpg" />
+    <Content Include="Kartlar\6.jpg" />
+    <Content Include="Kartlar\60.jpg" />
+    <Content Include="Kartlar\61.jpg" />
+    <Content Include="Kartlar\62.jpg" />
+    <Content Include="Kartlar\63.jpg" />
+    <Content Include="Kartlar\64.jpg" />
+    <Content Include="Kartlar\65.jpg" />
+    <Content Include="Kartlar\66.jpg" />
+    <Content Include="Kartlar\67.jpg" />
+    <Content Include="Kartlar\68.jpg" />
+    <Content Include="Kartlar\7.jpg" />
+    <Content Include="Kartlar\8.jpg" />
+    <Content Include="Kartlar\9.jpg" />
+    <Content Include="Kartlar\dogru.gif" />
+    <Content Include="Kartlar\yanlis.gif" />
+    <Content Include="kayit.aspx" />
+    <Content Include="menu2.css" />
+    <Content Include="mer.swf" />
+    <Content Include="music.html" />
+    <Content Include="oksibital1.aspx" />
+    <Content Include="oksibital2.aspx" />
+    <Content Include="oksibital3.aspx" />
+    <Content Include="oyunabasla.aspx" />
+    <Content Include="oyunabasla.css" />
+    <Content Include="oyunabasla.js" />
+    <Content Include="oyunresimleri\oyun1.png" />
+    <Content Include="oyunresimleri\oyun10.png" />
+    <Content Include="oyunresimleri\oyun11.png" />
+    <Content Include="oyunresimleri\oyun12.png" />
+    <Content Include="oyunresimleri\oyun13.png" />
+    <Content Include="oyunresimleri\oyun14.png" />
+    <Content Include="oyunresimleri\oyun15.png" />
+    <Content Include="oyunresimleri\oyun16.png" />
+    <Content Include="oyunresimleri\oyun2.png" />
+    <Content Include="oyunresimleri\oyun3.png" />
+    <Content Include="oyunresimleri\oyun4.png" />
+    <Content Include="oyunresimleri\oyun5.png" />
+    <Content Include="oyunresimleri\oyun6.png" />
+    <Content Include="oyunresimleri\oyun7.png" />
+    <Content Include="oyunresimleri\oyun8.png" />
+    <Content Include="oyunresimleri\oyun9.png" />
+    <Content Include="parietal1.aspx" />
+    <Content Include="parietal2.aspx" />
+    <Content Include="parietal3.aspx" />
+    <Content Include="Resimler2\arı.jpg" />
+    <Content Include="Resimler2\cicek.jpg" />
+    <Content Include="Resimler2\kedi.jpg" />
+    <Content Include="Resimler2\kemik.jpg" />
+    <Content Include="Resimler2\kopek.jpg" />
+    <Content Include="Resimler2\koyun.jpg" />
+    <Content Include="Resimler2\m10v.png" />
+    <Content Include="Resimler2\m11x.png" />
+    <Content Include="Resimler2\m12v.png" />
+    <Content Include="Resimler2\m13x.png" />
+    <Content Include="Resimler2\m14v.png" />
+    <Content Include="Resimler2\m15v.png" />
+    <Content Include="Resimler2\m1x.png" />
+    <Content Include="Resimler2\m2x.png" />
+    <Content Include="Resimler2\m3x.png" />
+    <Content Include="Resimler2\m4x.png" />
+    <Content Include="Resimler2\m5v.png" />
+    <Content Include="Resimler2\m6v.png" />
+    <Content Include="Resimler2\m7x.png" />
+    <Content Include="Resimler2\m8v.png" />
+    <Content Include="Resimler2\m9v.png" />
+    <Content Include="Resimler2\maymun.jpg" />
+    <Content Include="Resimler2\muzmaymun.jpg" />
+    <Content Include="Resimler2\ot.jpg" />
+    <Content Include="Resimler2\sut.jpg" />
+    <Content Include="Resimler2\çizgi1.jpg" />
+    <Content Include="Resimler2\çizgi2.jpg" />
+    <Content Include="Resimler2\çizgi3.jpg" />
+    <Content Include="Resimler2\çizgi4.jpg" />
+    <Content Include="Resimler2\çizgi5.jpg" />
+    <Content Include="Resimler3\A.png" />
+    <Content Include="Resimler3\alti.png" />
+    <Content Include="Resimler3\aslan.jpg" />
+    <Content Include="Resimler3\at.jpg" />
+    <Content Include="Resimler3\B.png" />
+    <Content Include="Resimler3\C.png" />
+    <Content Include="Resimler3\c1.png" />
+    <Content Include="Resimler3\c10.png" />
+    <Content Include="Resimler3\c11.png" />
+    <Content Include="Resimler3\c12.png" />
+    <Content Include="Resimler3\c13.png" />
+    <Content Include="Resimler3\c14.png" />
+    <Content Include="Resimler3\c15.png" />
+    <Content Include="Resimler3\c16.png" />
+    <Content Include="Resimler3\c17.png" />
+    <Content Include="Resimler3\c18.png" />
+    <Content Include="Resimler3\c19.png" />
+    <Content Include="Resimler3\c2.png" />
+    <Content Include="Resimler3\c20.png" />
+    <Content Include="Resimler3\c21.png" />
+    <Content Include="Resimler3\c22.png" />
+    <Content Include="Resimler3\c23.png" />
+    <Content Include="Resimler3\c24.png" />
+    <Content Include="Resimler3\c3.png" />
+    <Content Include="Resimler3\c4.png" />
+    <Content Include="Resimler3\c5.png" />
+    <Content Include="Resimler3\c6.png" />
+    <Content Include="Resimler3\c7.png" />
+    <Content Include="Resimler3\c8.png" />
+    <Content Include="Resimler3\c9.png" />
+    <Content Include="Resimler3\D.png" />
+    <Content Include="Resimler3\E.png" />
+    <Content Include="Resimler3\F.png" />
+    <Content Include="Resimler3\fare.jpg" />
+    <Content Include="Resimler3\G.png" />
+    <Content Include="Resimler3\hindi.jpg" />
+    <Content Include="Resimler3\kaplan.jpg" />
+    <Content Include="Resimler3\kertenkele.jpg" />
+    <Content Include="Resimler3\kopek.jpg" />
+    <Content Include="Resimler3\kurt.jpg" />
+    <Content Include="Resimler3\kuş.jpg" />
+    <Content Include="Resimler3\kuş.png" />
+    <Content Include="Resimler3\m1.jpg" />
+    <Content Include="Resimler3\m10.jpg" />
+    <Content Include="Resimler3\m2.jpg" />
+    <Content Include="Resimler3\m3.jpg" />
+    <Content Include="Resimler3\m4.jpg" />
+    <Content Include="Resimler3\m5.jpg" />
+    <Content Include="Resimler3\m6.jpg" />
+    <Content Include="Resimler3\m7.jpg" />
+    <Content Include="Resimler3\m8.jpg" />
+    <Content Include="Resimler3\m9.jpg" />
+    <Content Include="Resimler3\mad.jpg" />
+    <Content Include="Resimler3\p1.png" />
+    <Content Include="Resimler3\p10.png" />
+    <Content Include="Resimler3\p11.png" />
+    <Content Include="Resimler3\p12.png" />
+    <Content Include="Resimler3\p13.png" />
+    <Content Include="Resimler3\p14.png" />
+    <Content Include="Resimler3\p15.png" />
+    <Content Include="Resimler3\p16.png" />
+    <Content Include="Resimler3\p17.png" />
+    <Content Include="Resimler3\p18.png" />
+    <Content Include="Resimler3\p19.png" />
+    <Content Include="Resimler3\p2.png" />
+    <Content Include="Resimler3\p20.png" />
+    <Content Include="Resimler3\p21.png" />
+    <Content Include="Resimler3\p22.png" />
+    <Content Include="Resimler3\p23.png" />
+    <Content Include="Resimler3\p24.png" />
+    <Content Include="Resimler3\p3.png" />
+    <Content Include="Resimler3\p4.png" />
+    <Content Include="Resimler3\p5.png" />
+    <Content Include="Resimler3\p6.png" />
+    <Content Include="Resimler3\p7.png" />
+    <Content Include="Resimler3\p8.png" />
+    <Content Include="Resimler3\p9.png" />
+    <Content Include="Resimler3\parrot.jpg" />
+    <Content Include="Resimler3\sıcan.gif" />
+    <Content Include="Resimler3\sıcan.jpg" />
+    <Content Include="Resimler3\tavuk.jpg" />
+    <Content Include="Resimler3\tavuk.png" />
+    <Content Include="Resimler3\timsah.jpg" />
+    <Content Include="Resimler3\zebra.jpg" />
+    <Content Include="Resimler4\1.jpg" />
+    <Content Include="Resimler4\10.jpg" />
+    <Content Include="Resimler4\11.jpg" />
+    <Content Include="Resimler4\12.jpg" />
+    <Content Include="Resimler4\13.jpg" />
+    <Content Include="Resimler4\14.jpg" />
+    <Content Include="Resimler4\15.jpg" />
+    <Content Include="Resimler4\16.jpg" />
+    <Content Include="Resimler4\17.jpg" />
+    <Content Include="Resimler4\18.jpg" />
+    <Content Include="Resimler4\19.jpg" />
+    <Content Include="Resimler4\2.jpg" />
+    <Content Include="Resimler4\20.jpg" />
+    <Content Include="Resimler4\21.jpg" />
+    <Content Include="Resimler4\22.jpg" />
+    <Content Include="Resimler4\23.jpg" />
+    <Content Include="Resimler4\24.jpg" />
+    <Content Include="Resimler4\25.jpg" />
+    <Content Include="Resimler4\26.jpg" />
+    <Content Include="Resimler4\27.jpg" />
+    <Content Include="Resimler4\28.jpg" />
+    <Content Include="Resimler4\3.jpg" />
+    <Content Include="Resimler4\4.jpg" />
+    <Content Include="Resimler4\5.jpg" />
+    <Content Include="Resimler4\6.jpg" />
+    <Content Include="Resimler4\7.jpg" />
+    <Content Include="Resimler4\8.jpg" />
+    <Content Include="Resimler4\9.jpg" />
+    <Content Include="Resimler\1.jpg" />
+    <Content Include="Resimler\2.jpg" />
+    <Content Include="Resimler\admin.png" />
+    <Content Include="Resimler\Altın.jpg" />
+    <Content Include="Resimler\anah.png" />
+    <Content Include="Resimler\arka.jpeg" />
+    <Content Include="Resimler\4.jpg" />
+    <Content Include="Resimler\5.jpg" />
+    <Content Include="Resimler\6.jpg" />
+    <Content Include="Resimler\7.jpg" />
+    <Content Include="Resimler\8.jpg" />
+    <Content Include="Resimler\9.jpg" />
+    <Content Include="Resimler\Ananas.jpg" />
+    <Content Include="Resimler\arka.jpg" />
+    <Content Include="Resimler\Armut.jpg" />
+    <Content Include="Resimler\aslan.jpg" />
+    <Content Include="Resimler\at.jpg" />
+    <Content Include="Resimler\ayarlar.jpeg" />
+    <Content Include="Resimler\Ayva.jpg" />
+    <Content Include="Resimler\balon1.png" />
+    <Content Include="Resimler\balon2.png" />
+    <Content Include="Resimler\banner.jpg" />
+    <Content Include="Resimler\banner_1.png" />
+    <Content Include="Resimler\bas.jpeg" />
+    <Content Include="Resimler\basla.gif" />
+    <Content Include="Resimler\baslikkayit.jpg" />
+    <Content Include="Resimler\baykus.jpg" />
+    <Content Include="Resimler\bebek.jpg" />
+    <Content Include="Resimler\ben.png" />
+    <Content Include="Resimler\beyaz.jpg" />
+    <Content Include="Resimler\beyin22.jpg" />
+    <Content Include="Resimler\beyinoyna.jpeg" />
+    <Content Include="Resimler\Biber.jpg" />
+    <Content Include="Resimler\bolumleredon.png" />
+    <Content Include="Resimler\bulut1.png" />
+    <Content Include="Resimler\bulut2.png" />
+    <Content Include="Resimler\cartoon.jpg" />
+    <Content Include="Resimler\cartoond.jpg" />
+    <Content Include="Resimler\cengel.jpg" />
+    <Content Include="Resimler\Ceviz.jpg" />
+    <Content Include="Resimler\cik.png" />
+    <Content Include="Resimler\cubuk.jpg" />
+    <Content Include="Resimler\cırcır.jpg" />
+    <Content Include="Resimler\deve.jpg" />
+    <Content Include="Resimler\dogru.png" />
+    <Content Include="Resimler\eins.gif" />
+    <Content Include="Resimler\eins2.gif" />
+    <Content Include="Resimler\eins3.gif" />
+    <Content Include="Resimler\enerji.png" />
+    <Content Include="Resimler\Erik.jpg" />
+    <Content Include="Resimler\esek.jpg" />
+    <Content Include="Resimler\ev.png" />
+    <Content Include="Resimler\fil.jpg" />
+    <Content Include="Resimler\frontal.jpeg" />
+    <Content Include="Resimler\fırın.jpg" />
+    <Content Include="Resimler\geri.jpg" />
+    <Content Include="Resimler\Giris %281%29.gif" />
+    <Content Include="Resimler\gitar.jpg" />
+    <Content Include="Resimler\gri.png" />
+    <Content Include="Resimler\gulbebek.jpg" />
+    <Content Include="Resimler\hakkimda.jpeg" />
+    <Content Include="Resimler\hakkinda.jpeg" />
+    <Content Include="Resimler\hapsuruk.jpg" />
+    <Content Include="Resimler\Havuc.jpg" />
+    <Content Include="Resimler\hediye.png" />
+    <Content Include="Resimler\HindistanCevizi.jpg" />
+    <Content Include="Resimler\Hurma.jpg" />
+    <Content Include="Resimler\ikincibolum.jpg" />
+    <Content Include="Resimler\ileri.jpg" />
+    <Content Include="Resimler\ilkbolum.jpg" />
+    <Content Include="Resimler\inek.jpg" />
+    <Content Include="Resimler\Kabak.jpg" />
+    <Content Include="Resimler\kafa1.png" />
+    <Content Include="Resimler\Kahve.jpg" />
+    <Content Include="Resimler\kalem.jpg" />
+    <Content Include="Resimler\kalp.png" />
+    <Content Include="Resimler\kanarya.jpg" />
+    <Content Include="Resimler\kapak.jpeg" />
+    <Content Include="Resimler\kapat.png" />
+    <Content Include="Resimler\karga.jpg" />
+    <Content Include="Resimler\Karpuz.jpg" />
+    <Content Include="Resimler\kartal.jpg" />
+    <Content Include="Resimler\Kavun.jpg" />
+    <Content Include="Resimler\kayit.png" />
+    <Content Include="Resimler\kayitol.png" />
+    <Content Include="Resimler\kedi.jpg" />
+    <Content Include="Resimler\keman.jpg" />
+    <Content Include="Resimler\Kereviz.jpg" />
+    <Content Include="Resimler\kilit.png" />
+    <Content Include="Resimler\Kiraz.jpg" />
+    <Content Include="Resimler\Kivi.jpg" />
+    <Content Include="Resimler\kopek.jpg" />
+    <Content Include="Resimler\kurek.jpg" />
+    <Content Include="Resimler\kus.jpg" />
+    <Content Include="Resimler\kuzu.jpg" />
+    <Content Include="Resimler\kırmızı.png" />
+    <Content Include="Resimler\Limon.jpg" />
+    <Content Include="Resimler\martı.jpg" />
+    <Content Include="Resimler\masa.jpg" />
+    <Content Include="Resimler\mavi.png" />
+    <Content Include="Resimler\Maydanoz.jpg" />
+    <Content Include="Resimler\maymun.jpg" />
+    <Content Include="Resimler\Music-icon %281%29.png" />
+    <Content Include="Resimler\music-icon.png" />
+    <Content Include="Resimler\muzik.jpeg" />
+    <Content Include="Resimler\muzikkutu.jpg" />
+    <Content Include="Resimler\Nar.jpg" />
+    <Content Include="Resimler\occipital.jpeg" />
+    <Content Include="Resimler\ok1.jpeg" />
+    <Content Include="Resimler\ok2.jpeg" />
+    <Content Include="Resimler\ok3.jpeg" />
+    <Content Include="Resimler\ok4.jpeg" />
+    <Content Include="Resimler\ok5.jpeg" />
+    <Content Include="Resimler\oksuruk.jpg" />
+    <Content Include="Resimler\ordek.jpg" />
+    <Content Include="Resimler\oyna.jpeg" />
+    <Content Include="Resimler\oyun.jpeg" />
+    <Content Include="Resimler\oyunbaslat.jpg" />
+    <Content Include="Resimler\p1.jpg" />
+    <Content Include="Resimler\p10.jpg" />
+    <Content Include="Resimler\p10a.jpg" />
+    <Content Include="Resimler\p10b.jpg" />
+    <Content Include="Resimler\p10c.jpg" />
+    <Content Include="Resimler\p10d.jpg" />
+    <Content Include="Resimler\p11.jpg" />
+    <Content Include="Resimler\p12.jpg" />
+    <Content Include="Resimler\p13.jpg" />
+    <Content Include="Resimler\p14.jpg" />
+    <Content Include="Resimler\p15.jpg" />
+    <Content Include="Resimler\p16.jpg" />
+    <Content Include="Resimler\p17.jpg" />
+    <Content Include="Resimler\p18.jpg" />
+    <Content Include="Resimler\p19.jpg" />
+    <Content Include="Resimler\p1a.jpg" />
+    <Content Include="Resimler\p1b.jpg" />
+    <Content Include="Resimler\p1c.jpg" />
+    <Content Include="Resimler\p1d.jpg" />
+    <Content Include="Resimler\p2.jpg" />
+    <Content Include="Resimler\p20.jpg" />
+    <Content Include="Resimler\p2a.jpg" />
+    <Content Include="Resimler\p2b.jpg" />
+    <Content Include="Resimler\p2c.jpg" />
+    <Content Include="Resimler\p2d.jpg" />
+    <Content Include="Resimler\p3.jpg" />
+    <Content Include="Resimler\p3a.jpg" />
+    <Content Include="Resimler\p3b.jpg" />
+    <Content Include="Resimler\p3c.jpg" />
+    <Content Include="Resimler\p3d.jpg" />
+    <Content Include="Resimler\p4.jpg" />
+    <Content Include="Resimler\p4a.jpg" />
+    <Content Include="Resimler\p4b.jpg" />
+    <Content Include="Resimler\p4c.jpg" />
+    <Content Include="Resimler\p4d.jpg" />
+    <Content Include="Resimler\p5.jpg" />
+    <Content Include="Resimler\p5a.jpg" />
+    <Content Include="Resimler\p5b.jpg" />
+    <Content Include="Resimler\p5c.jpg" />
+    <Content Include="Resimler\p5d.jpg" />
+    <Content Include="Resimler\p6.jpg" />
+    <Content Include="Resimler\p6a.jpg" />
+    <Content Include="Resimler\p6b.jpg" />
+    <Content Include="Resimler\p6c.jpg" />
+    <Content Include="Resimler\p6d.jpg" />
+    <Content Include="Resimler\p7.jpg" />
+    <Content Include="Resimler\p7a.jpg" />
+    <Content Include="Resimler\p7b.jpg" />
+    <Content Include="Resimler\p7c.jpg" />
+    <Content Include="Resimler\p7d.jpg" />
+    <Content Include="Resimler\p8.jpg" />
+    <Content Include="Resimler\p8a.jpg" />
+    <Content Include="Resimler\p8b.jpg" />
+    <Content Include="Resimler\p8c.jpg" />
+    <Content Include="Resimler\p8d.jpg" />
+    <Content Include="Resimler\p9.jpg" />
+    <Content Include="Resimler\p9a.jpg" />
+    <Content Include="Resimler\p9b.jpg" />
+    <Content Include="Resimler\p9c.jpg" />
+    <Content Include="Resimler\p9d.jpg" />
+    <Content Include="Resimler\Pancar.jpg" />
+    <Content Include="Resimler\parietal.jpeg" />
+    <Content Include="Resimler\piano.jpg" />
+    <Content Include="Resimler\Portakal.jpeg" />
+    <Content Include="Resimler\Portakal.jpg" />
+    <Content Include="Resimler\puan.png" />
+    <Content Include="Resimler\result.png" />
+    <Content Include="Resimler\Rotating_brain_colored.gif" />
+    <Content Include="Resimler\ruzgar.jpg" />
+    <Content Include="Resimler\saat.jpg" />
+    <Content Include="Resimler\sac.jpg" />
+    <Content Include="Resimler\sari.png" />
+    <Content Include="Resimler\seberelyum.jpeg" />
+    <Content Include="Resimler\Seftali.jpg" />
+    <Content Include="Resimler\ses.wav" />
+    <Content Include="Resimler\sesayırt1.wav" />
+    <Content Include="Resimler\sesson.mp3" />
+    <Content Include="Resimler\sesson.wav" />
+    <Content Include="Resimler\sessss.jpg" />
+    <Content Include="Resimler\sevin1.gif" />
+    <Content Include="Resimler\sign.png" />
+    <Content Include="Resimler\simsek.jpg" />
+    <Content Include="Resimler\sinek.jpg" />
+    <Content Include="Resimler\sira1.png" />
+    <Content Include="Resimler\sira2.png" />
+    <Content Include="Resimler\sira3.png" />
+    <Content Include="Resimler\sira4.png" />
+    <Content Include="Resimler\sira5.png" />
+    <Content Include="Resimler\Sogan.jpg" />
+    <Content Include="Resimler\sonrakioyun.png" />
+    <Content Include="Resimler\start.jpg" />
+    <Content Include="Resimler\su.jpg" />
+    <Content Include="Resimler\sudoku.jpg" />
+    <Content Include="Resimler\tahta2.png" />
+    <Content Include="Resimler\talk2.jpeg" />
+    <Content Include="Resimler\tavuk.jpg" />
+    <Content Include="Resimler\temporal.jpeg" />
+    <Content Include="Resimler\ters.jpg" />
+    <Content Include="Resimler\tik.png" />
+    <Content Include="Resimler\tikla.gif" />
+    <Content Include="Resimler\tikla2.jpeg" />
+    <Content Include="Resimler\top.png" />
+    <Content Include="Resimler\Tropik.jpg" />
+    <Content Include="Resimler\turkuaz.png" />
+    <Content Include="Resimler\ucuncubolum.jpg" />
+    <Content Include="Resimler\ud.jpg" />
+    <Content Include="Resimler\uyeol.gif" />
+    <Content Include="Resimler\yanlis.png" />
+    <Content Include="Resimler\yardım.gif" />
+    <Content Include="Resimler\yardım.png" />
+    <Content Include="Resimler\yardım2.gif" />
+    <Content Include="Resimler\yardım3.gif" />
+    <Content Include="Resimler\yardım4.gif" />
+    <Content Include="Resimler\yardım5.gif" />
+    <Content Include="Resimler\yardım6.gif" />
+    <Content Include="Resimler\yardım7.gif" />
+    <Content Include="Resimler\yuru.jpg" />
+    <Content Include="Resimler\zebra.jpg" />
+    <Content Include="Resimler\İncir.jpg" />
+    <Content Include="ser1.aspx" />
+    <Content Include="ser2.aspx" />
+    <Content Include="ser3.aspx" />
+    <Content Include="Service References\ServiceReference1\WebService1.disco" />
+    <Content Include="Service References\ServiceReference1\configuration91.svcinfo" />
+    <Content Include="Service References\ServiceReference1\configuration.svcinfo" />
+    <Content Include="Service References\ServiceReference1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="ses.aspx" />
+    <Content Include="ses.html" />
+    <Content Include="ses.wav" />
+    <Content Include="Sesler\ses.wav" />
+    <Content Include="sesson.mp3" />
+    <Content Include="sesson.wav" />
+    <Content Include="sonuc.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="sudoku.aspx" />
+    <Content Include="temporal1.aspx" />
+    <Content Include="temporal2.aspx" />
+    <Content Include="tempotal3.aspx" />
+    <Content Include="Video\hhh.mp4" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baslangic.aspx.cs">
+      <DependentUpon>baslangic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="baslangic.aspx.designer.cs">
+      <DependentUpon>baslangic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="baslangic.Master.cs">
+      <DependentUpon>baslangic.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="baslangic.Master.designer.cs">
+      <DependentUpon>baslangic.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontal1.aspx.cs">
+      <DependentUpon>frontal1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontal1.aspx.designer.cs">
+      <DependentUpon>frontal1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontal2.aspx.cs">
+      <DependentUpon>frontal2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontal2.aspx.designer.cs">
+      <DependentUpon>frontal2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frontal3.aspx.cs">
+      <DependentUpon>frontal3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frontal3.aspx.designer.cs">
+      <DependentUpon>frontal3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Genel.master.cs">
+      <DependentUpon>Genel.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Genel.master.designer.cs">
+      <DependentUpon>Genel.master</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkimda.aspx.cs">
+      <DependentUpon>Hakkimda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkimda.aspx.designer.cs">
+      <DependentUpon>Hakkimda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hakkinda.aspx.cs">
+      <DependentUpon>hakkinda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hakkinda.aspx.designer.cs">
+      <DependentUpon>hakkinda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kayit.aspx.cs">
+      <DependentUpon>kayit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kayit.aspx.designer.cs">
+      <DependentUpon>kayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kisibilgi.cs" />
+    <Compile Include="KisiVeri.cs" />
+    <Compile Include="oksibital1.aspx.cs">
+      <DependentUpon>oksibital1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oksibital1.aspx.designer.cs">
+      <DependentUpon>oksibital1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oksibital2.aspx.cs">
+      <DependentUpon>oksibital2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oksibital2.aspx.designer.cs">
+      <DependentUpon>oksibital2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oksibital3.aspx.cs">
+      <DependentUpon>oksibital3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oksibital3.aspx.designer.cs">
+      <DependentUpon>oksibital3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oyunabasla.aspx.cs">
+      <DependentUpon>oyunabasla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oyunabasla.aspx.designer.cs">
+      <DependentUpon>oyunabasla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parietal1.aspx.cs">
+      <DependentUpon>parietal1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parietal1.aspx.designer.cs">
+      <DependentUpon>parietal1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parietal1kod.cs" />
+    <Compile Include="parietal2.aspx.cs">
+      <DependentUpon>parietal2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parietal2.aspx.designer.cs">
+      <DependentUpon>parietal2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parietal2metodlar.cs" />
+    <Compile Include="parietal3.aspx.cs">
+      <DependentUpon>parietal3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="parietal3.aspx.designer.cs">
+      <DependentUpon>parietal3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="parietal3metodlar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ser1.aspx.cs">
+      <DependentUpon>ser1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ser1.aspx.designer.cs">
+      <DependentUpon>ser1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ser2.aspx.cs">
+      <DependentUpon>ser2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ser2.aspx.designer.cs">
+      <DependentUpon>ser2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ser3.aspx.cs">
+      <DependentUpon>ser3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ser3.aspx.designer.cs">
+      <DependentUpon>ser3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceReference1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="ses.aspx.cs">
+      <DependentUpon>ses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ses.aspx.designer.cs">
+      <DependentUpon>ses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sesdata.cs" />
+    <Compile Include="sonuc.aspx.cs">
+      <DependentUpon>sonuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sonuc.aspx.designer.cs">
+      <DependentUpon>sonuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sudoku.aspx.cs">
+      <DependentUpon>sudoku.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sudoku.aspx.designer.cs">
+      <DependentUpon>sudoku.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temporal1.aspx.cs">
+      <DependentUpon>temporal1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temporal1.aspx.designer.cs">
+      <DependentUpon>temporal1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temporal1kod.cs" />
+    <Compile Include="temporal2.aspx.cs">
+      <DependentUpon>temporal2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temporal2.aspx.designer.cs">
+      <DependentUpon>temporal2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tempotal3.aspx.cs">
+      <DependentUpon>tempotal3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tempotal3.aspx.designer.cs">
+      <DependentUpon>tempotal3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI.cs" />
+    <Compile Include="VeriTabanı.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Genel.master" />
+    <Content Include="Hakkimda.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMICNTLLib">
+      <Guid>{5C65924B-E236-11D2-8899-00104B2AFB46}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPRichPreviewLauncher">
+      <Guid>{FA258721-CF24-45D7-A9CB-80047D7FEC35}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMSCLIENTNETMGRLib">
+      <Guid>{CD12A3C0-9C42-11D2-BEED-0060082F2054}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Service References\ServiceReference1\WebService1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="baslangic.Master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27846</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

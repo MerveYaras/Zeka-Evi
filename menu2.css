@@ -1,0 +1,65 @@
+﻿/* MENU ana cerceve*/
+#menu {
+    width:1000px;
+    display:inline-block;
+    padding:0px;
+    background-color: #575762;
+    text-align:center;
+}
+/* Ana menu */
+.hmenu {
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #FFF;
+}
+/* Ana Menu elemanlari */
+ul.hmenu>li {
+    float:left;
+    position:relative;
+    display:block;
+    color: #FFF;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #FFFFFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom:3px;
+    padding-top:3px;
+}
+/* Ana Menu uzerine gelince arka plan rengi */
+ul.hmenu li:hover {
+    background-color: #67697A;
+}
+/* Ana menu link bicimlendirme */
+ul.hmenu li a {
+    color: #FFF;
+    text-decoration: none;
+    display:block;
+}
+/* alt menu */
+ul.hmenu ul {
+    position:absolute;
+    list-style:none;
+    display:none;
+    min-width:120px;
+    margin-top:3px;
+    left:-1px;
+}
+/* Alt menu bicimlendirme */
+ul.hmenu ul li {
+    background-color:#505E69;
+    margin:1px;
+    text-align: left;
+    padding:3px;
+}
+/* Ana menu uzerine gelince alt menuyu ac */
+ul.hmenu li:hover>ul {
+    position:absolute;
+    display:block;
+    padding:0px;
+}
+/* bitti */
